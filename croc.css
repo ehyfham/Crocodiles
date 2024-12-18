@@ -1,0 +1,28 @@
+body {
+   margin:0px;
+    
+}
+
+ main {
+    padding:30px;
+ }
+ 
+nav {
+    background-color: #cccc3c;
+    padding:10px 20px;
+    
+    ul {
+        li{
+            display:inline-block;
+           
+        }
+       
+    }
+}
+
+.hero-image {
+    h1 {
+        font-size: 36px;
+        color: #B0532A;
+    }
+}
