@@ -1,24 +1,53 @@
 body {
-   margin:0px;
-    
+   margin:0px;   
 }
 
+
+
  main {
-    padding:30px;
+    padding:60px;
  }
+
+
  
 nav {
-    background-color: #cccc3c;
+    background-color: #454732;
     padding:10px 20px;
+    border: 1px solid red;
     
     ul {
-        li{
+        padding: 0; 
+        li {
+            a {
+                
+                text-decoration: none;
+                color: #FFF0D9;
+                border: 1px solid red;
+                height: 20px;
+                display: block;
+                padding: 10px;
+            }
+            text-align:center;
             display:inline-block;
-           
+            border: 1px solid red;
+            padding: 0;
+            
+            
         }
-       
+        height: 40px;
+        text-align: justify;
+        border: 1px solid red;
     }
+    ul::after{
+        width:100%; 
+        display: inline-block; 
+        content: ".";
+        visibility: hidden;
+    }
+
 }
+
+
 
 .hero-image {
     h1 {
