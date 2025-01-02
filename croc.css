@@ -6,7 +6,7 @@ body {
 
 
  main {
-    padding:60px;
+    padding:0%;
  }
 
  .hero {
@@ -79,3 +79,67 @@ nav {
     }
 
 }
+
+.block {
+    background: #454732;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin:0%;
+    width: 100%;
+}
+
+.block blockquote {
+    padding: 40px;
+    padding-left: 350px;
+    text-align: right;
+    color: #FFF0D9;
+    font-size: 18px;
+}
+
+.author {
+    font-size: 40px;
+    color:#B0532A;
+    padding-left: 5%;
+
+}
+
+.author p {
+    font-size: 18px;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.block-two {
+    background: #B0532A; 
+    color:#FFF0D9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5%;
+    margin: 0%;
+    font-size: 20px;
+ 
+}
+
+.hero2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+}
+
+.august{
+    color:#454732;
+    font-size: 30px;
+    text-align: center;
+}
+    
+.august p{ 
+    color:black;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
